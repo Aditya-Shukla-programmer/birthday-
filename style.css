@@ -1,50 +1,41 @@
 body {
-  background: linear-gradient(to bottom right, #ffe6f0, #cceeff);
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(to right, #ffe6f0, #ccf2ff);
+  color: #444;
   text-align: center;
-  padding: 40px;
-  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-  background: white;
-  padding: 30px;
+header {
+  background-color: #ffb6c1;
+  padding: 1em;
+  color: white;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+img {
+  max-width: 90%;
+  border: 5px solid #ffb6c1;
+  margin: 10px auto;
   border-radius: 20px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  display: inline-block;
-}
-
-.profile-pic {
-  border-radius: 50%;
-  margin: 20px 0;
-  width: 200px;
-  height: 200px;
 }
 
 button {
-  background: #ff99cc;
-  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #ffb6c1;
   border: none;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-size: 16px;
+  border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
-
-button:hover {
-  background: #ff66b3;
-}
-
-.cute-text {
-  font-size: 18px;
-  margin-top: 10px;
-}
-
-.hidden {
-  display: none;
-  font-size: 20px;
-  margin-top: 20px;
-  color: #ff3399;
-}
-/* Baby Pink + Sky Blue theme styles */
