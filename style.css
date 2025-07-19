@@ -86,6 +86,31 @@ body.landing-page {
   opacity: 0.7;
 }
 
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  background: #ffb6c1;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #ff69b4;
+}
+
+
 @keyframes floatUp {
   0% {
     transform: translateY(0);
