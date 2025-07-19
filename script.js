@@ -1,5 +1,3 @@
-function showMessage() {
-  const msg = document.getElementById("message");
-  msg.classList.remove("hidden");
+function revealMessage() {
+  document.getElementById("surpriseText").style.display = "block";
 }
-// JavaScript for animations and effects
