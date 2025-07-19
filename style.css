@@ -1,1 +1,50 @@
+body {
+  background: linear-gradient(to bottom right, #ffe6f0, #cceeff);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 200px;
+  height: 200px;
+}
+
+button {
+  background: #ff99cc;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #ff66b3;
+}
+
+.cute-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ff3399;
+}
 /* Baby Pink + Sky Blue theme styles */
