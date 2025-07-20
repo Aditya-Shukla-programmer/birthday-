@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Surprise | Tap for Magic 🎁</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <title>Surprise Gift</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body class="surprise-page">
 
-  <div class="floating-hearts"></div>
+  <div class="surprise-container">
+    <h1>Ready for your surprise?</h1>
+    <button onclick="showSurprise()">Open Your Gift 🎁</button>
 
-  <div class="container center-content">
-    <h1 class="page-heading">🎁 A Little Surprise for You 🎁</h1>
-    <p class="sub-heading">Tap the gift below and see what happens! 💫</p>
-
-    <button id="giftBox" class="gift-button">🎁</button>
-
-    <div id="surpriseMessage" class="hidden-surprise">
-      <h2>💖 You Are My Greatest Gift 💖</h2>
-      <p>No matter what comes in life, I’ll always be your biggest fan, your safe place, your forever home. I love you endlessly, Sona. 💌</p>
-    </div>
-
-    <a href="index.html" class="back-home">← Back to Home</a>
+    <div id="burst-container"></div>
+    <div class="gift chocolate">🍫</div>
+    <div class="gift soup">🍲</div>
+    <div class="gift-message">Because you're sweet and warm — just like these 💖</div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
