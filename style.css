@@ -481,15 +481,15 @@ body.landing-page {
   border-radius: 50%;
 }
 
-.main-heading {
-  font-size: 3.5rem; /* You can increase this further if needed */
-  font-weight: 800;
-  text-align: center;
+
+h1.main-title {
+  font-size: 3.5rem;
   color: #ff4081;
+  font-weight: bold;
+  text-shadow: 2px 2px #ffc0cb;
   margin-top: 60px;
-  font-family: 'Pacifico', cursive; /* Optional romantic font */
-  text-shadow: 2px 2px 4px rgba(255, 64, 129, 0.4);
 }
+
 
 
 @keyframes fall {
