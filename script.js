@@ -89,3 +89,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+function showSurprise() {
+  // Show chocolate and soup
+  document.querySelector('.chocolate').classList.add('show');
+  document.querySelector('.soup').classList.add('show');
+  document.querySelector('.gift-message').classList.add('show');
+
+  // Heart burst effect
+  for (let i = 0; i < 60; i++) {
+    const heart = document.createElement('div');
+    heart.className = 'heart-burst';
+    heart.style.left = `${Math.random() * 100}vw`;
+    heart.style.top = `${Math.random() * 100}vh`;
+    document.body.appendChild(heart);
+
+    // Remove after animation
+    setTimeout(() => heart.remove(), 2000);
+  }
+
+  // Optional: Add audio
+  const audio = new Audio('https://www.fesliyanstudios.com/play-mp3/387');
+  audio.play();
+}
+
