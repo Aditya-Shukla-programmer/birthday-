@@ -9,3 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     heartsContainer.appendChild(heart);
   }
 });
+
+function fakeSendMessage(event) {
+  event.preventDefault();
+  alert("Aww! Your message has been wrapped with love and sent to Aditya's heart 💌💖");
+  return false;
+}
+
