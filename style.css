@@ -265,6 +265,50 @@ body.landing-page {
   box-shadow: 0 12px 20px rgba(255, 105, 180, 0.4);
 }
 
+/* Journey Page */
+.journey-page {
+  background: linear-gradient(to bottom, #ffe6f0, #ffe6ff);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 30px;
+  min-height: 100vh;
+  color: #4b2c4f;
+}
+
+.timeline {
+  position: relative;
+  margin: 40px 0;
+  padding-left: 25px;
+  border-left: 3px solid #ff5fa2;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+}
+
+.timeline-content {
+  background: #fff0f6;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(255, 105, 180, 0.2);
+  animation: fadeIn 1s ease;
+}
+
+.timeline-item::before {
+  content: "❤️";
+  position: absolute;
+  left: -18px;
+  top: 4px;
+  font-size: 1.2rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
 
 
 @keyframes floatUp {
