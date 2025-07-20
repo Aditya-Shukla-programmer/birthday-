@@ -176,6 +176,65 @@ body.landing-page {
   font-weight: bold;
 }
 
+/* Fun Facts Page */
+.fun-facts-page {
+  background: linear-gradient(to right, #ffd6ec, #ffe5f7);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 30px;
+  min-height: 100vh;
+  color: #4b2c4f;
+}
+
+.page-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.sub-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #a64d79;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.fact-card {
+  background-color: #fff0f6;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.2);
+  transition: 0.3s;
+  font-size: 1rem;
+  text-align: center;
+  animation: floatIn 0.7s ease;
+}
+
+.fact-card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  background-color: #ffe3f3;
+  box-shadow: 0 8px 16px rgba(255, 105, 180, 0.3);
+}
+
+/* Animations */
+@keyframes floatIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 
 @keyframes floatUp {
