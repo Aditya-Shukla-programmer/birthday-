@@ -223,6 +223,80 @@ body.landing-page {
   box-shadow: 0 8px 16px rgba(255, 105, 180, 0.3);
 }
 
+.surprise-page {
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 50px;
+  font-family: 'Arial', sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.surprise-container button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.surprise-container button:hover {
+  transform: scale(1.1);
+}
+
+.gift {
+  font-size: 5rem;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 1s ease;
+  margin-top: 20px;
+}
+
+.gift.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.gift-message {
+  font-size: 1.3rem;
+  color: #880e4f;
+  margin-top: 20px;
+  opacity: 0;
+  transition: opacity 1s ease 1s;
+}
+
+.gift-message.show {
+  opacity: 1;
+}
+
+/* Heart burst styles */
+.heart-burst {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Heart_coraz%C3%B3n.svg/2048px-Heart_coraz%C3%B3n.svg.png') no-repeat center center / contain;
+  animation: pop 2s linear forwards;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-200px) scale(0.5);
+  }
+}
+
 /* Animations */
 @keyframes floatIn {
   from {
