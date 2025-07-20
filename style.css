@@ -235,6 +235,36 @@ body.landing-page {
   }
 }
 
+/* Gallery Page */
+.gallery-page {
+  background: linear-gradient(to bottom, #fff0f5, #ffe6eb);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 30px;
+  min-height: 100vh;
+  color: #4b2c4f;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.3);
+  transition: 0.4s ease;
+  object-fit: cover;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(255, 105, 180, 0.4);
+}
+
 
 
 @keyframes floatUp {
