@@ -310,6 +310,33 @@ body.landing-page {
   border-radius: 50%;
 }
 
+/* Letter Page */
+.letter-page {
+  background: linear-gradient(to right, #ffe0e9, #ffeef7);
+  font-family: 'Georgia', serif;
+  padding: 30px;
+  color: #5a2b4f;
+  min-height: 100vh;
+}
+
+.typewriter {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff0f5;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(255, 105, 180, 0.2);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  animation: fadeIn 1s ease;
+  min-height: 300px;
+}
+
+.typewriter p {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
 
 @keyframes floatUp {
   0% {
