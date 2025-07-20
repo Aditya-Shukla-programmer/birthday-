@@ -110,6 +110,73 @@ body.landing-page {
   background: #ff69b4;
 }
 
+/* Contact Page Styling */
+.contact-page {
+  background: linear-gradient(135deg, #ffe0ec, #ffd1f4);
+  color: #4b2c4f;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.heart-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  animation: fadeIn 2s ease;
+}
+
+.romantic-text {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 2px solid #ff8fc0;
+  border-radius: 15px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #fff0f6;
+  resize: none;
+}
+
+.contact-form button {
+  background-color: #ff5ca8;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ff2e95;
+  transform: scale(1.05);
+}
+
+.back-home {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  color: #aa217a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 
 @keyframes floatUp {
   0% {
