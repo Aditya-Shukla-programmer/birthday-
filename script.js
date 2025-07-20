@@ -67,3 +67,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+  const giftBtn = document.getElementById("giftBox");
+  const surpriseMessage = document.getElementById("surpriseMessage");
+
+  if (giftBtn && surpriseMessage) {
+    giftBtn.addEventListener("click", () => {
+      giftBtn.classList.add("opened");
+      surpriseMessage.classList.add("visible");
+
+      // Confetti burst
+      for (let i = 0; i < 100; i++) {
+        const confetti = document.createElement("div");
+        confetti.className = "confetti";
+        confetti.style.left = `${Math.random() * 100}%`;
+        confetti.style.animationDuration = `${2 + Math.random() * 2}s`;
+        document.body.appendChild(confetti);
+
+        setTimeout(() => confetti.remove(), 4000);
+      }
+    });
+  }
+});
