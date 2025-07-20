@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Surprise 🎁</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Surprise | Tap for Magic 🎁</title>
   <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
-<body>
-  <header><h1>Surprise for You! 🎈</h1></header>
-  <main>
-    <button onclick="revealMessage()">Click me 😍</button>
-    <p id="surpriseText" style="display: none;">You're the reason behind my smile every day 💖</p>
-  </main>
+<body class="surprise-page">
+
+  <div class="floating-hearts"></div>
+
+  <div class="container center-content">
+    <h1 class="page-heading">🎁 A Little Surprise for You 🎁</h1>
+    <p class="sub-heading">Tap the gift below and see what happens! 💫</p>
+
+    <button id="giftBox" class="gift-button">🎁</button>
+
+    <div id="surpriseMessage" class="hidden-surprise">
+      <h2>💖 You Are My Greatest Gift 💖</h2>
+      <p>No matter what comes in life, I’ll always be your biggest fan, your safe place, your forever home. I love you endlessly, Sona. 💌</p>
+    </div>
+
+    <a href="index.html" class="back-home">← Back to Home</a>
+  </div>
+
 </body>
 </html>
